@@ -1,0 +1,16 @@
+# 01 — No Action Without Authorization
+
+**Execution is impossible without an issued authorization.**
+
+An action attempted by an AI system is not evaluated after the fact; it does not
+occur at all unless a signed authorization artifact exists for that specific
+request. The artifact binds identity, action, environment, and tenant. No
+artifact, no execution — by construction, not by convention.
+
+Logs are not authorization. Observation is not enforcement. Post-hoc review is
+not control.
+
+**Verify:** every decision issued by the live control plane carries an Ed25519
+authorization artifact. [Run the verifier](https://github.com/AtlasQuantumProtocol/verify-11ai-proof).
+
+**Corpus:** DOI — *add Zenodo DOI for the anchor governance filing/spec here*.
