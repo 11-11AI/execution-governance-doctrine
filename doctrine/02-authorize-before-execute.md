@@ -12,4 +12,4 @@ runtime boundary the action cannot bypass.
 signed ALLOW/DENY decision precede any effect.
 [Live demo](https://control.11aiblockchain.com/demo).
 
-**Corpus:** DOI — *add Zenodo DOI here*.
+**Corpus:** DOI — [10.5281/zenodo.20266345](https://doi.org/10.5281/zenodo.20266345).

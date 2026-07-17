@@ -12,4 +12,4 @@ guess, and every signature can be re-verified offline.
 signatures on your own machine —
 [verify-11ai-proof](https://github.com/AtlasQuantumProtocol/verify-11ai-proof).
 
-**Corpus:** DOI — *add Zenodo DOI here*.
+**Corpus:** DOI — [10.5281/zenodo.20277892](https://doi.org/10.5281/zenodo.20277892) (RFC-EG-0300); [10.5281/zenodo.20836771](https://doi.org/10.5281/zenodo.20836771) (RFC-EG-0301).

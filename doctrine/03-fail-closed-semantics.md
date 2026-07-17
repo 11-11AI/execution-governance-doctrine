@@ -10,4 +10,4 @@ signed and persisted — a denial is as provable as an approval.
 **Verify:** [system status](https://control.11aiblockchain.com/health) and
 denial events in the [briefings](https://www.11aiblockchain.com/executionbriefings).
 
-**Corpus:** DOI — *add Zenodo DOI here*.
+**Corpus:** DOI — [10.5281/zenodo.20252295](https://doi.org/10.5281/zenodo.20252295).
