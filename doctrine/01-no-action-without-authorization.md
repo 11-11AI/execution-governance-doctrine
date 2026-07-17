@@ -13,4 +13,4 @@ not control.
 **Verify:** every decision issued by the live control plane carries an Ed25519
 authorization artifact. [Run the verifier](https://github.com/AtlasQuantumProtocol/verify-11ai-proof).
 
-**Corpus:** DOI — *add Zenodo DOI for the anchor governance filing/spec here*.
+**Corpus:** DOI — [10.5281/zenodo.20252639](https://doi.org/10.5281/zenodo.20252639).

@@ -12,4 +12,4 @@ the public proof endpoint.
 evidence root yourself:
 [`/v1/public/evidence`](https://control.11aiblockchain.com/v1/public/evidence).
 
-**Corpus:** DOI — *add Zenodo DOI for the EA-11 lineage architecture here*.
+**Corpus:** DOI — [10.5281/zenodo.20264726](https://doi.org/10.5281/zenodo.20264726).

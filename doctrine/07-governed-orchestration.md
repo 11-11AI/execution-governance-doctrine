@@ -12,4 +12,4 @@ lines.
 Identity standards answer *who owns the agent*. Execution Governance answers
 *whether it may act* — and proves the answer.
 
-**Corpus:** DOI — *add Zenodo DOI here*.
+**Corpus:** DOI — [10.5281/zenodo.20261800](https://doi.org/10.5281/zenodo.20261800).

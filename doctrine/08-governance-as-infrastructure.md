@@ -9,5 +9,5 @@ decisions and real-world effects, consumed by every system that cannot afford
 to execute first and ask later — defense, finance, healthcare, critical
 infrastructure.
 
-**Corpus:** DOI — *add Zenodo DOI here*. Full archive:
+**Corpus:** DOI — [10.5281/zenodo.20453136](https://doi.org/10.5281/zenodo.20453136). Full archive:
 [Zenodo — 11/11 AI](https://zenodo.org/communities/11-11-ai/records).

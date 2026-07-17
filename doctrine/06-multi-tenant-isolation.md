@@ -7,4 +7,4 @@ artifact, audit chain, and decision hash are all tenant-scoped. An artifact
 issued for one tenant cannot authorize execution for another, and a decision
 cannot be replayed — the binding is cryptographic, not administrative.
 
-**Corpus:** DOI — *add Zenodo DOI here*.
+**Corpus:** DOI — [10.5281/zenodo.20350744](https://doi.org/10.5281/zenodo.20350744).
