@@ -11,7 +11,7 @@ deployed.
 
 **Verify:** the Ed25519 signature can be checked on your own machine from the
 public JWKS and the evidence record —
-[verify-11ai-proof](https://github.com/AtlasQuantumProtocol/verify-11ai-proof).
+[verify-11ai-proof](https://github.com/11-11AI/verify-11ai-proof).
 
 Keys are published on a channel separate from the artifacts they authenticate.
 Ed25519 is served from the standard JWKS location, and the post-quantum public
