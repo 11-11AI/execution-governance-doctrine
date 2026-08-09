@@ -22,7 +22,7 @@ corpus, and reproducible against a live control plane.
 Every principle is implemented in a live, fail-closed control plane with a
 public verification surface:
 
-- Verify a signed governance decision yourself: [verify-11ai-proof](https://github.com/AtlasQuantumProtocol/verify-11ai-proof)
+- Verify a signed governance decision yourself: [verify-11ai-proof](https://github.com/11-11AI/verify-11ai-proof)
 - Public evidence endpoint (no auth): <https://control.11aiblockchain.com/v1/public/evidence>
 - Proof viewer: <https://control.11aiblockchain.com/proof>
 
