@@ -3,7 +3,7 @@
 **Execution is impossible without authorization. This is enforced, not observed.**
 
 Eight sequenced principles defining Execution Governance as an infrastructure
-layer for AI — published openly, backed by a 54+ record DOI-registered research
+layer for AI — published openly, backed by a DOI-registered research
 corpus, and reproducible against a live control plane.
 
 | # | Principle | |
@@ -31,7 +31,7 @@ public verification surface:
 - Research corpus (RFC specs, lineage architecture, reference implementations):
   [Zenodo — 11/11 AI community](https://zenodo.org/communities/11-11-ai/records)
 - Policy papers: [SSRN](https://11aiblockchain.com/research#ssrn)
-- Patent estate: 15+ USPTO filings, Customer No. 229939, assigned to the
+- Patent estate: patent-pending USPTO filings, assigned to the
   11 AI Blockchain Developments Land and IP Trust.
 
 ## License
