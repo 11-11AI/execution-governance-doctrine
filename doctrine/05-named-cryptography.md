@@ -1,13 +1,26 @@
 # 05 — Named Cryptography, Not Implied
 
-**Ed25519, SHA3-512, BLAKE2b-512 — stated at every layer.**
+**Every chain names its own primitives, and each one is checkable separately.**
 
-The exact primitives used in the control plane are published, not implied:
-Ed25519 authorization artifacts, SHA3-512 + BLAKE2b-512 evidence chaining, and
-a hybrid post-quantum signature envelope (**ML-DSA-87** / FIPS 204 and
-**SLH-DSA-SHA2-128f** / FIPS 205 SPHINCS+) over the EA-11 evidence root.
+There are three hash chains in this system. They are different structures with
+different threat models, they make different choices, and each is stated here
+rather than summarised into a single claim that would be accurate about only
+one of them.
+
+| Chain | Where it runs | What it computes | How you check it |
+| --- | --- | --- | --- |
+| **EA-11 evidence** | control plane | SHA-512 at every layer, at schema version `EA11_EVIDENCE_STATE_V2_2`. BLAKE2b-512 is declared in the state metadata and is not computed. | Recompute the five component hashes and the Merkle root from a live record: [`/v1/public/proof-ledger`](https://control.11aiblockchain.com/v1/public/proof-ledger) |
+| **RFC-EG-0010 lineage** | reference verifier | SHA3-512 **and** BLAKE2b-512, genuinely dual: every event carries both chain hashes and each is verified independently. | Run the verifier against the published example and tampered documents: [11-11-lineage-verifier](https://github.com/11-11AI/11-11-lineage-verifier) |
+| **SDK receipts** | `@11ai/execution-governance`, on your machine | SHA3-512 over canonical JSON, Ed25519 signed, chained. | `eg-verify`, or the offline browser verifier: [hosted](https://11-11ai.github.io/execution-governance/verify/) |
+
+Authorization artifacts are Ed25519 throughout. A hybrid post-quantum signature
+envelope (**ML-DSA-87** / FIPS 204 and **SLH-DSA-SHA2-128f** / FIPS 205
+SPHINCS+) covers the EA-11 evidence root.
+
 Reviewers do not have to guess, and the parameter sets are stated exactly as
-deployed.
+deployed. Where a chain does not do something — BLAKE2b-512 on the EA-11
+chain — that is stated too, because a primitive named in metadata and not
+computed is worse than one never mentioned.
 
 **Verify:** the Ed25519 signature can be checked on your own machine from the
 public JWKS and the evidence record —
